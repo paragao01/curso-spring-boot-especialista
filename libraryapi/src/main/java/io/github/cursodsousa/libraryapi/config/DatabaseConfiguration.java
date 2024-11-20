@@ -38,7 +38,7 @@ public class DatabaseConfiguration {
      * https://github.com/brettwooldridge/HikariCP
      * @return
      */
-    @Bean
+//    @Bean
     public DataSource hikariDataSource(){
 
         log.info("Iniciando conexão com o banco na URL: {}", url);
